@@ -1,0 +1,9 @@
+[Unit]
+Description=TG Bot service
+After=network-online.target
+
+[Service]
+ExecStart=/home/python/run.sh
+
+[Install]
+WantedBy=multi-user.target
